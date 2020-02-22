@@ -19,6 +19,6 @@ const KafkaConfig = new Kafka({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use('/api/v1/dev/kafka', adminIndex(admin));
+app.use('/api/v1/dev/kafka/admin', adminIndex(KafkaConfig));
 
 app.listen(4040);
