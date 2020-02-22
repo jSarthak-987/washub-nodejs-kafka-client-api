@@ -1,0 +1,26 @@
+{
+  "name": "kafka-broker",
+  "version": "0.1.0",
+  "description": "Kafka Broker API",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jSarthak-987/washub-nodejs-kafka-client-api.git"
+  },
+  "author": "Sarthak Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jSarthak-987/washub-nodejs-kafka-client-api/issues"
+  },
+  "homepage": "https://github.com/jSarthak-987/washub-nodejs-kafka-client-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "kafkajs": "^1.12.0"
+  }
+}
