@@ -32,5 +32,3 @@ module.exports = {
         });
     }
 }
-
-// module.exports = adminController;
