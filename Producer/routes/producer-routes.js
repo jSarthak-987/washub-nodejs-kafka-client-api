@@ -14,7 +14,7 @@ module.exports = (producer) => {
         producerPromisesHandler(producerController.connectBroker(req, res, next, producer));
     });
 
-    router.get('/publishmessage', (req, res, next) => {
+    router.post('/publishmessage', (req, res, next) => {
         producerPromisesHandler(producerController.publishMessage(req, res, next, producer));
     });
     
